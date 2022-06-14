@@ -19,6 +19,13 @@
 }
 .footer-contato li {
   color: #fff;
+  font-size: 36px;
+  margin-top: 30px;
+  
+}
+
+.footer-contato li a {
+  color: #fff;
 }
 
 .footer-copy {
