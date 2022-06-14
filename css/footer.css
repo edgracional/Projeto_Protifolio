@@ -5,5 +5,37 @@
 .footer-container {
   max-width: 1200px;
   padding: 120px 20px 60px 20px;
-  
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 24px;
+  line-height: 1.33;
+  color: #CCCCCC;
+}
+.footer-contato li {
+  color: #fff;
+}
+
+.footer-copy {
+  font-size: 18px;
+  color: #8F8F8F;
+  grid-column: 1 / -1;
+
+}
+
+@media (max-width: 800px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
 }
